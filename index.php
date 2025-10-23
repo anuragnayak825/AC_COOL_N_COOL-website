@@ -9,7 +9,7 @@
     <?php include 'includes/common-header.php'; ?>
 </head>
 
-<body>
+<body >
 
     <!-- ==============header=========== -->
     <?php include 'includes/header.php'; ?>
@@ -71,16 +71,6 @@
                 </div>
             </div>
 
-            <!-- Slider Controls -->
-            <!-- <div class="slider-controls">
-                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
-                <div class="slider-dots">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
-            </div> -->
         </div>
     </section>
 
@@ -145,8 +135,8 @@
 
     <section id="services">
         <?php /* <div class="ac-element">
-            <img src="<?= SITE_PATH; ?>assets/images/ac.png" alt="">
-        </div> */ ?>
+       <img src="<?= SITE_PATH; ?>assets/images/ac.png" alt="">
+   </div> */ ?>
         <div class="section-upper">
             <div class="container">
                 <div class="row">
@@ -174,7 +164,7 @@
         <div class="services-below">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 ">
                         <div class="service-box">
                             <div class="service-image">
                                 <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
@@ -187,7 +177,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4">
                         <div class="service-box">
                             <div class="service-image">
                                 <img src="<?= SITE_PATH; ?>assets/images/serv-2.jpg" alt="">
@@ -200,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4">
                         <div class="service-box">
                             <div class="service-image">
                                 <img src="<?= SITE_PATH; ?>assets/images/serv-3.jpg" alt="">
@@ -224,14 +214,14 @@
     <section id="why-choose">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 ">
                     <div class="why-choose-box">
                         <div class="why-choose-image">
                             <img src="<?= SITE_PATH; ?>assets/images/why-choose-image.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6">
                     <div class="why-choose-box">
                         <div class="why-choose-content">
                             <h5><span>❄️</span> WHY CHOOSE US</h5>
@@ -291,7 +281,7 @@
         <div class="other-service-below">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="other-service-card">
                             <i class="fa-solid fa-fan"></i>
                             <h3>Servicing</h3>
@@ -301,7 +291,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="other-service-card">
                             <i class="fa-solid fa-hammer"></i>
                             <h3>Maintenance & Repair</h3>
@@ -311,7 +301,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="other-service-card">
                             <i class="fa-brands fa-instalod"></i>
                             <h3>Aircon Installation</h3>
@@ -321,7 +311,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="other-service-card">
                             <i class="fa-solid fa-gem"></i>
                             <h3>Diagnostics</h3>
@@ -331,7 +321,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="other-service-card">
                             <i class="fa-solid fa-water"></i>
                             <h3>Heating & Water</h3>
@@ -341,7 +331,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="other-service-card">
                             <i class="fa-solid fa-bolt"></i>
                             <h3>Energy Efficiency</h3>
@@ -470,23 +460,67 @@
     <section class="web-content">
         <div class="container">
             <h3>Importance Of Having Functional Air Con Systems In Malaysian Homes</h3>
-            <p>In countries having a hot and humid climate, such as Malaysia, air-con units play an important role in making your lives more comfortable and convenient. No matter whether you live in Selangor or any nearby area, without a proper cooling system, there is a high chance that the inside of your home shall become extremely humid during the summers, making you sweaty and uncomfortable. Aircon installation KL can not only help in keeping your house comfortable, but may also help in purifying the indoor air by filtering out particles, bugs, odors, and so on.</p>
+            <p>In countries having a hot and humid climate, such as Malaysia, air-con units play an important role in
+                making your lives more comfortable and convenient. No matter whether you live in Selangor or any nearby
+                area, without a proper cooling system, there is a high chance that the inside of your home shall become
+                extremely humid during the summers, making you sweaty and uncomfortable. Aircon installation KL can not
+                only help in keeping your house comfortable, but may also help in purifying the indoor air by filtering
+                out particles, bugs, odors, and so on.</p>
 
             <h3>Need for dependable HVAC maintenance</h3>
-            <p>Air pollution is a major, ongoing issue in Malaysia, especially in major cities like Kuala Lumpur. It, in fact, is among the most polluted cities in the world. If you are a KL resident, then you might be acquainted with the alarming haze lingering in its air. This is a product of forest fires from nearby nations and the practice of burning various materials taking place in the region. Some of these materials might be hazardous as well. Hence, the smog you find across Mont Kiara and nearby areas is not just unpleasant to see, but can even hamper your health.</p>
-            <p>To keep yourself protected from the harmful effects of air pollution, it is important to have a well-functioning HVAC system at home. However, just installing a cooling system is not enough. Taking its good care is vital to ensuring the long term functionality of the system. Just like your car needs tune-ups every now and then, proper Aircon service and cleaning are also needed to make sure that the system keeps running in good condition. This is where we come in. We at AC Cool N Cool Engineering can provide extremely competent aircon inspection, maintenance, and cleaning solutions across the regions of Mont Kiara, Kuala Lumpur, Selangor, and Ampang. Our professional technicians will see to it that your system is free from any mold that may cause causes allergy or health issues.</p>
+            <p>Air pollution is a major, ongoing issue in Malaysia, especially in major cities like Kuala Lumpur. It, in
+                fact, is among the most polluted cities in the world. If you are a KL resident, then you might be
+                acquainted with the alarming haze lingering in its air. This is a product of forest fires from nearby
+                nations and the practice of burning various materials taking place in the region. Some of these
+                materials might be hazardous as well. Hence, the smog you find across Mont Kiara and nearby areas is not
+                just unpleasant to see, but can even hamper your health.</p>
+            <p>To keep yourself protected from the harmful effects of air pollution, it is important to have a
+                well-functioning HVAC system at home. However, just installing a cooling system is not enough. Taking
+                its good care is vital to ensuring the long term functionality of the system. Just like your car needs
+                tune-ups every now and then, proper Aircon service and cleaning are also needed to make sure that the
+                system keeps running in good condition. This is where we come in. We at AC Cool N Cool Engineering can
+                provide extremely competent aircon inspection, maintenance, and cleaning solutions across the regions of
+                Mont Kiara, Kuala Lumpur, Selangor, and Ampang. Our professional technicians will see to it that your
+                system is free from any mold that may cause causes allergy or health issues.</p>
 
             <h3>Advantages of having a proper cooling system at home</h3>
             <ul>
-                <li><b>Better air quality:</b> Air-con units have the capability to remove moisture and filter out harmful pollutants that may cause respiratory issues. This feature especially comes as a huge advantage for families having members with allergies and asthma. However, your cooling system would only be able to serve this benefit if you seek out professional Aircon cleaning solutions regularly, and get its vents and coiled orderly cleaned.</li>
-                <li><b>Improved Sleep:</b> Sleep always does come easy due to the sticky and humid weather prevalent in Australia. The situation gets worse every summer, where you might end up tossing and turning every night, feeling uncomfortable, without having a good cooling system at home. Hot temperatures tend to interface with your natural temperature regulation, thereby causing irritation and profuse sweating. All these issues can be solved by sleeping in an air-conditioned room.</li>
-                <li><b>Better Security:</b> The crime rates in Kuala Lumpur are pretty high. Hence, to ensure the security of your home and family members, you must take all the needed precautions against privacy violations and robbery. Keeping all the doors and windows closed at night is among the key steps involved in the process. Unfortunately, if you don’t have a cooling system installed at home, then you might have to keep your windows open at night to let the cool air come in. This would create an unsafe situation for your home, even if the windows have screens or grills.</li>
+                <li><b>Better air quality:</b> Air-con units have the capability to remove moisture and filter out
+                    harmful pollutants that may cause respiratory issues. This feature especially comes as a huge
+                    advantage for families having members with allergies and asthma. However, your cooling system would
+                    only be able to serve this benefit if you seek out professional Aircon cleaning solutions regularly,
+                    and get its vents and coiled orderly cleaned.</li>
+                <li><b>Improved Sleep:</b> Sleep always does come easy due to the sticky and humid weather prevalent in
+                    Australia. The situation gets worse every summer, where you might end up tossing and turning every
+                    night, feeling uncomfortable, without having a good cooling system at home. Hot temperatures tend to
+                    interface with your natural temperature regulation, thereby causing irritation and profuse sweating.
+                    All these issues can be solved by sleeping in an air-conditioned room.</li>
+                <li><b>Better Security:</b> The crime rates in Kuala Lumpur are pretty high. Hence, to ensure the
+                    security of your home and family members, you must take all the needed precautions against privacy
+                    violations and robbery. Keeping all the doors and windows closed at night is among the key steps
+                    involved in the process. Unfortunately, if you don’t have a cooling system installed at home, then
+                    you might have to keep your windows open at night to let the cool air come in. This would create an
+                    unsafe situation for your home, even if the windows have screens or grills.</li>
             </ul>
 
             <h3>Providing a dynamic range of professional aircon service</h3>
-            <p>We at AC Cool N Cool Engineering are proud of being your one stop destination for aircond service KL. Our key goal is to provide our clients with the highest quality of installation, repair and installation services, right on schedule. We understand that time and cost is crucial for air con troubleshoot, and always try our best to go above and beyond our client’s expectations. Our team can work on multiple makes and models of aircon units.</p>
-            <p>There are numerous types of aircon devices available today. They are often known by diverse names, depending on where and how they are installed. For example, if an aircond system is mounted on to the wall it is referred to as wall-mounted aircon and if it is mounted to the ceiling then it is known as ceiling aircon. Wall-mounted aircon units are frequently seen in both homes and offices, and they tend to have a compressor capacity of up to 3 HP. Among all the diverse options available, window-mounted aircon units are the most common ones. They are quite easy to install and uninstall, making carrying out aircond relocate services hassle-free. We at AC Cool N Cool Engineering can work on all of these models, enabling us to effectively cater to the requirements of all customers.</p>
-            <p>No matter whether it is time for an annual tune-up, routine inspection, or even an upgrade, our team is committed to providing you with air con service residential and commercial that not just meets, but manages to exceed your requirements. By delivering premium-quality workmanship, we make beating the humid Malaysian summers extremely easy.</p>
+            <p>We at AC Cool N Cool Engineering are proud of being your one stop destination for aircond service KL. Our
+                key goal is to provide our clients with the highest quality of installation, repair and installation
+                services, right on schedule. We understand that time and cost is crucial for air con troubleshoot, and
+                always try our best to go above and beyond our client’s expectations. Our team can work on multiple
+                makes and models of aircon units.</p>
+            <p>There are numerous types of aircon devices available today. They are often known by diverse names,
+                depending on where and how they are installed. For example, if an aircond system is mounted on to the
+                wall it is referred to as wall-mounted aircon and if it is mounted to the ceiling then it is known as
+                ceiling aircon. Wall-mounted aircon units are frequently seen in both homes and offices, and they tend
+                to have a compressor capacity of up to 3 HP. Among all the diverse options available, window-mounted
+                aircon units are the most common ones. They are quite easy to install and uninstall, making carrying out
+                aircond relocate services hassle-free. We at AC Cool N Cool Engineering can work on all of these models,
+                enabling us to effectively cater to the requirements of all customers.</p>
+            <p>No matter whether it is time for an annual tune-up, routine inspection, or even an upgrade, our team is
+                committed to providing you with air con service residential and commercial that not just meets, but
+                manages to exceed your requirements. By delivering premium-quality workmanship, we make beating the
+                humid Malaysian summers extremely easy.</p>
         </div>
     </section>
 
@@ -496,7 +530,7 @@
     <section id="faqs">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6">
                     <div class="faqs-box">
                         <div class="faq-box-content">
                             <h5><span>❄️</span> FAQs</h5>
@@ -555,7 +589,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6">
                     <div class="faqs-box">
                         <div class="faqs-image">
                             <img src="<?= SITE_PATH; ?>assets/images/Faqs.png" alt="">
@@ -602,21 +636,21 @@
                 dots.forEach(dot => dot.classList.remove('active'));
 
                 slides[index].classList.add('active');
-                dots[index].classList.add('active');
+                // dots[index].classList.add('active');
                 currentSlide = index;
             }
 
             // Next slide
-            function nextSlide() {
-                currentSlide = (currentSlide + 1) % slideCount;
-                showSlide(currentSlide);
-            }
+            // function nextSlide() {
+            //     currentSlide = (currentSlide + 1) % slideCount;
+            //     showSlide(currentSlide);
+            // }
 
-            // Previous slide
-            function prevSlide() {
-                currentSlide = (currentSlide - 1 + slideCount) % slideCount;
-                showSlide(currentSlide);
-            }
+            // // Previous slide
+            // function prevSlide() {
+            //     currentSlide = (currentSlide - 1 + slideCount) % slideCount;
+            //     showSlide(currentSlide);
+            // }
 
             // Auto slide
             let slideInterval = setInterval(nextSlide, 5000);
@@ -657,6 +691,8 @@
 
         });
     </script>
+
+    
 
 </body>
 

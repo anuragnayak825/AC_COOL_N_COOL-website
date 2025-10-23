@@ -21,7 +21,7 @@
         </div>
 
         <div class="locations-below">
-            <div class="container">
+            <div class=" container-class">
                 <div class="locations-name">
                     <a href="#">Ampang</a>
                     <a href="#">Ara Damansara</a>

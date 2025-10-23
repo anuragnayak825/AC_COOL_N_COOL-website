@@ -131,6 +131,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
+    position: relative;
+    z-index: 2;
     /* backdrop-filter: blur(5px); */
     /* box-shadow: 0 2px 5px rgba(251, 251, 251, 0.233); */
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.314);
@@ -259,6 +261,110 @@ header {
 .main-header-right-button a:hover {
     background: var(--secondary-color);
     color: var(--black);
+}
+
+.menu-icon-div {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.menu-icon-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* ======================= Side-bar============== */
+.side-menu-container {
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(90deg, rgba(0, 73, 118, 0.87) 0%, rgba(0, 73, 118, 0.7) 50%, rgba(0, 73, 118, 0.414) 100%);
+    /* Blue gradient for the background */
+    top: 0;
+    left: 0px;
+    z-index: 1;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+    /* Stronger blur effect for a glassy look */
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    /* Optional: Adds a subtle border for the glass effect */
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.15);
+    /* Optional: Adds shadow for a deeper glass feel */
+    overflow: hidden;
+    transform: translateX(100%);
+    transition: all .5s ease-in-out;
+    /* Optional: Prevents overflow from visible elements */
+}
+
+.side-menu-container.active {
+    transform: translateX(0);
+}
+
+.side-menu-container aside {
+    width: 50%;
+    height: 100%;
+    background-color: var(--white);
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.side-menu-container aside .heading {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-menu-container aside .heading img {
+    width: 40px;
+}
+
+.side-menu-container aside .heading a img {
+    width: 80px;
+    height: 100%;
+}
+
+.side-menu-container aside ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid; */
+    height: 70vh;
+}
+
+.side-menu-container aside ul li a {
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+}
+
+.side-menu-container aside ul .has-menu a {
+    margin-right: 60px;
+}
+
+.side-menu-container aside ul li .submenu-list {
+    width: 100%;
+    /* max-height: 200px; */
+    max-height: 0px;
+    border-left: 5px solid var(--secondary-color);
+    padding: 0px 15px;
+    overflow: hidden;
+    transition: all .6s ease-in-out;
+    margin-top: 0px;
+}
+
+.side-menu-container aside ul li .submenu-list.active {
+    max-height: 200px;
+    margin: 10px 0px;
 }
 
 /* ======================Hero-banner================= */
@@ -513,47 +619,8 @@ header {
 }
 
 /* Responsive Styles */
-@media (max-width: 992px) {
-    .hero-overlay {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        background: rgba(0, 73, 118, 0.85);
-        padding: 60px 5%;
-    }
 
-    .hero-content {
-        padding-right: 0;
-        margin-bottom: 40px;
-        max-width: 100%;
-    }
-
-    .hero-form {
-        width: 100%;
-        max-width: 500px;
-    }
-
-    .benefits-list {
-        text-align: left;
-        display: inline-block;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2.2rem;
-    }
-
-    .subtitle {
-        font-size: 1rem;
-    }
-
-    #hero-banner {
-        min-height: 800px;
-    }
-}
-
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .hero-form {
         padding: 20px;
     }
@@ -561,7 +628,7 @@ header {
     .form-container h3 {
         font-size: 1.3rem;
     }
-}
+} */
 
 /* =================about-us================== */
 
@@ -878,7 +945,7 @@ header {
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    height: 800px;
+    height: auto;
 }
 
 #why-choose::before {
@@ -894,7 +961,7 @@ header {
 
 .why-choose-box {
     width: 100%;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     height: 100%;
     position: relative;
     z-index: 2;
@@ -1316,6 +1383,7 @@ header {
 
 /* =========================faqs================ */
 
+
 #faqs {
     width: 100%;
     padding: 50px 0 0 0;
@@ -1325,7 +1393,7 @@ header {
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    height: 700px;
+    height: auto;
 }
 
 #faqs::before {
@@ -1342,6 +1410,7 @@ header {
 .faqs-box {
     position: relative;
     z-index: 2;
+    padding: 20px 0px;
 }
 
 .faqs-image {
@@ -1517,10 +1586,12 @@ header {
     gap: 20px;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .locations-name a {
-    width: 15%;
+    width: 18%;
     background: #e5f5fd83;
     padding: 15px 5px;
     border-radius: 15px;

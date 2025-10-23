@@ -134,3 +134,21 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(item);
   });
 });
+
+
+// SIDE BAR OPNE  
+
+
+// function opensidebar() {
+//   const sidebar = document.querySelector('.side-menu-container');
+//   sidebar.classList.toggle('open');
+// }
+
+// menu script 
+// document.addEventListener("DOMContentLoaded", function () {
+//             const hamber_icon = document.getElementsByClassName(".menu-icon-div");
+//             hamber_icon.addEventListener("click", () => {
+//                 alert("Hamburger icon clicked!");
+//             });
+//         });
+
