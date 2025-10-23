@@ -138,6 +138,218 @@
     }
 
 
+    /* Service Section */
+
+    #service-content-i {
+        padding: 40px;
+        gap: 20px;
+    }
+
+    #service-content-i .table-of-content-container h3 {
+        font-size: 17px;
+        padding: 15px;
+    }
+
+    .content-of-container h1 {
+        font-size: 30px;
+    }
+
+    .content-of-container p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .content-of-container h2 {
+        font-size: 26px;
+    }
+
+    /* Service CTA section */
+
+    .service-cta {
+        padding: 20px 40px;
+    }
+
+    .service-cta .service-cta-div {
+        gap: 20px;
+    }
+
+    .service-cta .service-cta-div .left-side h1 {
+        font-size: 36px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div {
+        gap: 10px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(1) {
+        padding: 16px 20px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(2),
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(3) {
+        width: 50px;
+        height: 50px;
+    }
+
+    .service-cta .service-cta-div .right-side p {
+        font-size: 16px;
+    }
+
+
+    /* Priceing */
+    .pricing-section {
+        width: 100%;
+        height: auto;
+        padding: 20px 40px;
+    }
+
+    .parent-res-and-com {
+        height: 180vh;
+    }
+
+
+
+    .residential-wall-mount-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        /* display: flex;
+        flex-wrap: wrap; */
+        gap: 20px;
+    }
+
+    .residential-wall-mount-sec .right-side .card {
+        width: 100%;
+    }
+
+
+    .content-div h1 {
+        font-size: 30px;
+
+    }
+
+    .content-div h2 {
+        font-size: 25px;
+    }
+
+    .content-div p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .content-div h3 {
+        font-size: 21px;
+
+    }
+
+    .button-container {
+        padding: 40px;
+    }
+
+    .service-button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* Resdencial service */
+
+    .residentcial-section {
+        padding: 0px 40px;
+    }
+
+    .residentcial-section .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .residentcial-section .hero-content p {
+        font-size: 20px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec {
+        gap: 20px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec button {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .residentcial-section .form-container {
+        width: 87%;
+    }
+
+    #Res-about-sec {
+        padding: 20px 40px;
+    }
+
+    #Res-about-sec .left-side-sec .div-img {
+        width: 100%;
+        height: 120vh;
+        position: relative;
+
+    }
+
+    #Res-about-sec .right-side-sec h2 {
+        font-size: 25px;
+    }
+
+    #Res-about-sec .right-side-sec h3 {
+        font-size: 22px;
+    }
+
+    #Res-about-sec .right-side-sec p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec {
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+    }
+
+    .res-service-sec .left-side {
+        width: 100%;
+        position: static;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .res-service-sec .left-side h1 {
+        font-size: 37px;
+    }
+
+    .res-service-sec .left-side ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 0px 0px;
+    }
+
+    .why-Choose-us .right-side-sec .imges-div img:nth-child(3) {
+        display: none;
+    }
+
+
+    /* Footer */
+
+
+
+
+
 }
 
 /* ============================= 786px ================ */
@@ -216,6 +428,8 @@
         margin: ;
     }
 
+
+
     /* Why  */
     #why-choose .row {
         display: flex;
@@ -241,6 +455,329 @@
     .locations-below .container-class {
         width: 100%;
     }
+
+    /* Service Section */
+
+    #service-content-i {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    #service-content-i .table-of-content-container h3 {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .content-of-container h1 {
+        font-size: 25px;
+    }
+
+    .content-of-container p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .content-of-container h2 {
+        font-size: 21px;
+    }
+
+    .content-of-container h3 {
+        font-size: 18px;
+    }
+
+    .content-of-container ul {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    /* Service CTA section */
+
+    .service-cta {
+        padding: 20px 15px;
+    }
+
+    .service-cta .service-cta-div {
+        gap: 10px;
+    }
+
+    .service-cta .service-cta-div .left-side h1 {
+        font-size: 28px;
+    }
+
+    .service-cta .service-cta-div .right-side {
+        width: 55%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 10px;
+        /* border: 1px solid; */
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div {
+        gap: 5px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(1) {
+        padding: 16px 20px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(2),
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+
+    .service-cta .service-cta-div img {
+        position: absolute;
+        width: 120px;
+        left: 35%;
+        bottom: -10px;
+    }
+
+    .service-cta .service-cta-div .right-side p {
+        font-size: 15px;
+        width: 100%;
+        max-width: 85%;
+    }
+
+    /* price */
+    .pricing-section {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+    }
+
+    .parent-res-and-com {
+        height: 198vh;
+    }
+
+
+
+    .residential-wall-mount-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        /* display: flex;
+        flex-wrap: wrap; */
+        gap: 20px;
+    }
+
+    .residential-wall-mount-sec .right-side .card {
+        width: 100%;
+    }
+
+    .content-div {
+        padding: 20px;
+    }
+
+    .content-div h1 {
+        font-size: 30px;
+
+    }
+
+    .content-div h2 {
+        font-size: 25px;
+    }
+
+    .content-div p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .content-div h3 {
+        font-size: 21px;
+
+    }
+
+
+
+    .content-div h3 {
+        font-size: 21px;
+        margin-top: 10px;
+    }
+
+    .content-div ul {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    /* why */
+
+    .why-Choose-us {
+        padding: 20px;
+    }
+
+    .left-side-ins-sec h1 {
+        font-size: 25px;
+    }
+
+    .why-Choose-us .left-side-sec ul {
+        margin-top: 16px;
+        gap: 17px;
+
+    }
+
+    .why-Choose-us .left-side-sec ul li h2 {
+        font-size: 19px;
+    }
+
+    .why-Choose-us .left-side-sec ul li p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+    }
+
+    .why-Choose-us .left-side-sec ul li img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 40px;
+    }
+
+    .service-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Resdential */
+
+    #hero-banner {
+        min-height: 900px;
+    }
+
+    .residentcial-section .form-container {
+        width: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    /* Resdencial service */
+
+    #Res-about-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        padding: 0px 40px;
+    }
+
+    #Res-about-sec .left-side-sec {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #Res-about-sec .right-side-sec {
+        width: 100%;
+        height: 100%;
+    }
+
+    .residentcial-section .hero-content h1 {
+        font-size: 45px;
+    }
+
+    .residentcial-section .hero-content p {
+        font-size: 22px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec {
+        gap: 20px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec button {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .residentcial-section .form-container {
+        width: 100%;
+    }
+
+    #Res-about-sec {
+        padding: 20px 40px;
+    }
+
+    #Res-about-sec .left-side-sec .div-img {
+        width: 100%;
+        height: 60vh;
+        position: relative;
+
+    }
+
+    #Res-about-sec .right-side-sec h2 {
+        font-size: 25px;
+    }
+
+    #Res-about-sec .right-side-sec h3 {
+        font-size: 22px;
+    }
+
+    #Res-about-sec .right-side-sec p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec {
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+    }
+
+    .res-service-sec .left-side {
+        width: 100%;
+        position: static;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .res-service-sec .left-side h1 {
+        font-size: 37px;
+    }
+
+    .res-service-sec .left-side ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 0px 0px;
+    }
+
+    .why-Choose-us .right-side-sec .imges-div img:nth-child(3) {
+        display: none;
+    }
+
+    .why-choose-end h1 {
+        padding: 40px;
+    }
+
+    /* Footer Section */
 
 }
 
@@ -455,6 +992,433 @@
     .locations-name a {
         width: 100%;
     }
+
+
+    /* Footer */
+    footer {
+        padding: 10px 20px;
+    }
+
+    .footer-text {
+        max-width: 80%;
+    }
+
+    .footer-title {
+        text-align: left;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer-contact {
+        margin-left: 0px;
+    }
+
+    .contact-title {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+
+    /* Service Section */
+
+    #service-content-i {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    #service-content-i .table-of-content-container {
+        width: 100%;
+        position: static;
+    }
+
+    #service-content-i .table-of-content-container h3 {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .content-of-container {
+        width: 100%;
+        height: auto;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .content-of-container h1 {
+        font-size: 23px;
+    }
+
+    .content-of-container p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .content-of-container h2 {
+        font-size: 19px;
+    }
+
+    .content-of-container h3 {
+        font-size: 18px;
+    }
+
+    .content-of-container ul {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+
+    /* Service CTA section */
+
+    .service-cta {
+        padding: 20px;
+    }
+
+    .service-cta .service-cta-div {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .service-cta .service-cta-div .left-side {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid; */
+    }
+
+    .service-cta .service-cta-div .left-side h1 {
+        font-size: 28px;
+    }
+
+    .service-cta .service-cta-div .right-side {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        /* border: 1px solid; */
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div {
+        gap: 5px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(1) {
+        padding: 16px 20px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(2),
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+
+    .service-cta .service-cta-div img {
+        position: absolute;
+        width: 120px;
+        top: 50px;
+
+        right: 0px;
+        display: none;
+    }
+
+    .service-cta .service-cta-div .right-side p {
+        font-size: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Pricing */
+
+    .pricing-section {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .parent-res-and-com {
+        height: 400vh;
+    }
+
+    .pricing-section .btn-div {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .pricing-section .btn-div button {
+        padding: 14px 10px;
+        font-size: 14px;
+    }
+
+    .residential-wall-mount-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+
+    }
+
+    .residential-wall-mount-sec .right-side .card {
+        width: 100%;
+
+    }
+
+    .why-Choose-us {
+        padding: 20px 10px;
+    }
+
+    .left-side-ins-sec h1 {
+        font-size: 25px;
+    }
+
+    .why-Choose-us .left-side-sec ul {
+        margin-top: 16px;
+        gap: 17px;
+
+    }
+
+    .why-Choose-us .left-side-sec ul li h2 {
+        font-size: 19px;
+    }
+
+    .why-Choose-us .left-side-sec ul li p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+    }
+
+    .why-Choose-us .left-side-sec ul li img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .content-div {
+        padding: 20px;
+    }
+
+    .content-div h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .content-div h1 {
+        font-size: 25px;
+
+    }
+
+    .content-div h2 {
+        font-size: 20px;
+    }
+
+    .content-div p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .content-div h3 {
+        font-size: 21px;
+
+    }
+
+    .content-div h3 {
+        font-size: 21px;
+
+    }
+
+    .content-div h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .content-div ul {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    .service-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+    /* Resdential */
+
+    #hero-banner {
+        min-height: 990px;
+    }
+
+    .residentcial-section .form-container {
+        width: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    /* Resdencial service */
+
+    #Res-about-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        padding: 0px 20px;
+    }
+
+    #Res-about-sec .left-side-sec {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #Res-about-sec .right-side-sec {
+        width: 100%;
+        height: 100%;
+    }
+
+    .residentcial-section .hero-content h1 {
+        font-size: 35px;
+    }
+
+    .residentcial-section .hero-content p {
+        font-size: 18px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec button {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .residentcial-section .form-container {
+        width: 100%;
+    }
+
+    #Res-about-sec {
+        padding: 20px;
+    }
+
+    #Res-about-sec .left-side-sec .div-img {
+        width: 100%;
+        height: 60vh;
+        position: relative;
+
+    }
+
+    #Res-about-sec .right-side-sec h2 {
+        font-size: 25px;
+    }
+
+    #Res-about-sec .right-side-sec h3 {
+        font-size: 22px;
+    }
+
+    #Res-about-sec .right-side-sec p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec {
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+    }
+
+    .res-service-sec .left-side {
+        width: 100%;
+        position: static;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .res-service-sec .left-side h1 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .res-service-sec .left-side ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec .left-side ul li {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 18px;
+        letter-spacing: 0.04rem;
+    }
+
+    .res-service-sec .left-side p {
+        font-size: 16px;
+    }
+
+    .res-service-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding: 0px 0px;
+    }
+
+    .why-Choose-us {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .why-Choose-us .left-side-sec h1 {
+        font-size: 25px;
+    }
+
+    .why-Choose-us .left-side-sec {
+        width: 100%;
+    }
+
+    .why-Choose-us .right-side-sec .imges-div {
+        display: none;
+    }
+
+    .why-choose-end h1 {
+        padding: 20px;
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 423px) {
@@ -706,6 +1670,434 @@
 
     .locations-name a {
         width: 100%;
+    }
+
+    /* Service Section */
+
+    #service-content-i {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 30px;
+    }
+
+    #service-content-i .table-of-content-container {
+        width: 100%;
+        position: static;
+    }
+
+    #service-content-i .table-of-content-container h3 {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .content-of-container {
+        width: 100%;
+        height: auto;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .content-of-container h1 {
+        font-size: 20px;
+    }
+
+    .content-of-container p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+    }
+
+    .content-of-container h2 {
+        font-size: 18px;
+    }
+
+    .content-of-container h3 {
+        font-size: 18px;
+    }
+
+    .content-of-container ul {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+
+    /* Service CTA section */
+
+    .service-cta {
+        padding: 20px;
+    }
+
+    .service-cta .service-cta-div {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .service-cta .service-cta-div .left-side {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid; */
+    }
+
+    .service-cta .service-cta-div .left-side h1 {
+        font-size: 24px;
+    }
+
+    .service-cta .service-cta-div .right-side {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        /* border: 1px solid; */
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div {
+        gap: 5px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(1) {
+        padding: 16px 10px;
+        font-size: 17px;
+    }
+
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(2),
+    .service-cta .service-cta-div .right-side .btn-div button:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+
+    .service-cta .service-cta-div img {
+        position: absolute;
+        width: 120px;
+        top: 50px;
+
+        right: 0px;
+        display: none;
+    }
+
+    .service-cta .service-cta-div .right-side p {
+        font-size: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* Pricing */
+
+    .pricing-section {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .parent-res-and-com {
+        height: 400vh;
+    }
+
+    .pricing-section .btn-div {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .pricing-section .btn-div button {
+        padding: 14px 10px;
+        font-size: 14px;
+    }
+
+    .residential-wall-mount-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .content-div {
+        padding: 10px;
+    }
+
+    .content-div h4 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    .content-div h1 {
+        font-size: 20px;
+
+    }
+
+    .content-div h2 {
+        font-size: 18px;
+    }
+
+    .content-div p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+    }
+
+    .content-div h3 {
+        font-size: 21px;
+
+    }
+
+    .content-div h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .content-div ul {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    /* Why-choose */
+
+    .why-Choose-us {
+        padding: 20px 10px;
+    }
+
+    .left-side-ins-sec h1 {
+        font-size: 25px;
+    }
+
+    .why-Choose-us .left-side-sec ul {
+        margin-top: 16px;
+        gap: 17px;
+
+    }
+
+    .why-Choose-us .left-side-sec ul li h2 {
+        font-size: 19px;
+    }
+
+    .why-Choose-us .left-side-sec ul li p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.35;
+    }
+
+    .why-Choose-us .left-side-sec ul li img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+
+    .service-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /*  */
+
+    /* Resdential */
+
+    #hero-banner {
+        min-height: 990px;
+    }
+
+    .residentcial-section .form-container {
+        width: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    /* Resdencial service */
+
+    #Res-about-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        padding: 0px 10px;
+    }
+
+    #Res-about-sec .left-side-sec {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #Res-about-sec .right-side-sec {
+        width: 100%;
+        height: 100%;
+    }
+
+    .residentcial-section .hero-content h1 {
+        font-size: 35px;
+    }
+
+    .residentcial-section .hero-content p {
+        font-size: 18px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .residentcial-section .hero-content .res-btn-sec button {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .residentcial-section .form-container {
+        width: 100%;
+    }
+
+    #Res-about-sec {
+        padding: 10px;
+    }
+
+    #Res-about-sec .left-side-sec .div-img {
+        width: 100%;
+        height: 60vh;
+        position: relative;
+
+    }
+
+    #Res-about-sec .right-side-sec h2 {
+        font-size: 25px;
+    }
+
+    #Res-about-sec .right-side-sec h3 {
+        font-size: 22px;
+    }
+
+    #Res-about-sec .right-side-sec p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec {
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+    }
+
+    .res-service-sec .left-side {
+        width: 100%;
+        position: static;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .res-service-sec .left-side h1 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .res-service-sec .left-side ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .res-service-sec .left-side ul li {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 18px;
+        letter-spacing: 0.04rem;
+    }
+
+    .res-service-sec .left-side p {
+        font-size: 16px;
+    }
+
+    .res-service-sec .right-side {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0px 0px;
+    }
+
+    .why-Choose-us {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .why-Choose-us .left-side-sec h1 {
+        font-size: 25px;
+    }
+
+    .why-Choose-us .left-side-sec {
+        width: 100%;
+    }
+
+    .why-Choose-us .right-side-sec .imges-div {
+        display: none;
+    }
+
+    .why-choose-end h1 {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+
+
+
+
+    /* footer */
+
+    footer {
+        padding: 10px 20px;
+    }
+
+    .footer-text {
+        max-width: 80%;
+    }
+
+    .footer-title {
+        text-align: left;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer-contact {
+        margin-left: 0px;
+    }
+
+    .contact-title {
+        text-align: left;
+        margin-left: 0px;
     }
 
 

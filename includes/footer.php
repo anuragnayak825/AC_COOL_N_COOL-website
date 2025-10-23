@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <div class="footer-box">
                     <div class="footer-logo">
                         <img src="<?= SITE_PATH; ?>assets/images/logo-ac.png" alt="AC Cool & Cool Logo">
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 ">
                 <div class="footer-box">
                     <div class="footer-title">
                         <h3>Quick Links</h3>

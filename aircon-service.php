@@ -94,41 +94,9 @@
             </p>
 
         </div>
-        <!-- <div class="container">
-            <h2>AC Cool N Cool Engineering Provides Competent Air Con Cleaning Solutions</h2>
-            <p>There are many places in the world that has a majorly humid climate throughout the year, such as Kuala
-                Lumpur. Hence, to live comfortably, many people here use air con systems for the majority of the months.
-                To make sure that they are able to meet the needs of your family, you need to proper care of these HVAC
-                systems as well. They especially have to be serviced and cleaned properly on a regular basis to see to
-                it that they are able to work properly, without any malfunctions. This is where we come in. AC Cool N
-                Cool Engineering is among the most trusted service providers of air con cleaning, maintenance, repairs,
-                and installation.</p>
-            <p>There are several reasons why you should seek out Aircon cleaning service from us. Here are a few of
-                them:</p>
-            <ul>
-                <li><b>Flow of cool air:</b> With the repeated use of the cooling system, its filters are bound to get
-                    dirty. These filters are essentially installed in the machine to refrain the dust and dirt from
-                    coming out of the unit, so that people can enjoy fresh, cool air. However, if these filters are not
-                    cleaned routinely and simply left like that, it can eventually become a hindrance for the cool air
-                    to pass. Proper cleaning of these filters is needed to make sure that your air con unit is able to
-                    provide cool air seamlessly.</li>
-                <li><b>Improve the quality of air:</b> Regular cleaning of the air con unit is imperative to make sure
-                    that it manages to supply air that is not only cool, but also clean and healthy. No one wants to
-                    breathe in impure air. However, if the filters of your cooling system are full of dust and dirt it
-                    can cause bacteria to build up there. As a result, whenever you switch on the system, air shall pass
-                    through filters containing bacteria, fine dust particles, and pollutants. Breathing in such unclean
-                    air is not good for health, and can especially be problematic if you have kids or elderly
-                    individuals at home who are prone to falling sick. Breathing in impure air can also increase the
-                    chances of developing asthma and lungs. To steer clear of all these problems, timely air con
-                    cleaning and servicing are needed.</li>
-            </ul>
-            <p>Our Aircon Service and cleaning process are designed with your health and comfort in mind. A
-                professionally cleaned cooling unit means healthier indoor air quality, less power consumption, and
-                better cooling power</p>
-        </div> -->
     </section>
 
-    <section id="price" class="price-container">
+    <!-- <section id="price" class="price-container">
 
         <div class="price-btn-coontainer">
             <button class="btn active" onclick="activateButton(this)">WALL MOUNTED AIRCON</button>
@@ -150,7 +118,7 @@
                 </div>
                 <div class=" Basic-cleaning  ">
                     <h1>WALL MOUNTED AIRCON</h1>
-                    <!-- <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt=""> -->
+                    <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
                     <h4>GENERAL SERVICE :</h4>
                     <ul>
                         <li>To remove and wash filters</li>
@@ -198,7 +166,7 @@
                 </div>
                 <div class="chemical-cleanig">
                     <h1></h1>
-                    <!-- <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt=""> -->
+                    <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
                     <h2>CHEMICAL SERVICE UP TO 2.5HP</h2>
                     <ul>
                         <li>To remove filters and wash.</li>
@@ -258,7 +226,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <section class="service-cta">
         <div class="service-cta-div">
