@@ -1,27 +1,27 @@
 <div class="button-container">
-    <button class="service-button">Aircon service kl</button>
-    <button class="service-button">Aircon service Selangor</button>
-    <button class="service-button">Aircon service USJ</button>
-    <button class="service-button">Aircon service Puchong</button>
-    <button class="service-button">Aircon service Wangsa Maju</button>
-    <button class="service-button">Aircon service Kepong</button>
-    <button class="service-button">Aircon service Cheras</button>
-    <button class="service-button">Aircon Service Sri Hartamas</button>
-    <button class="service-button">Aircon service Kampung baru</button>
-    <button class="service-button">Aircon service near jalan Ipoh</button>
-    <button class="service-button">Aircon service Titiwangsa</button>
-    <button class="service-button">Aircon service Mont Kiara</button>
-    <button class="service-button">Aircon service PJ</button>
-    <button class="service-button">Aircon Service Kota</button>
-    <button class="service-button">Aircon Service Subang Jaya</button>
-    <button class="service-button">Aircon service Bangsar</button>
-    <button class="service-button">Aircon service Ampang</button>
-    <button class="service-button">Aircon service Desa park city</button>
-    <button class="service-button">Aircon service Chowkit</button>
-    <button class="service-button">Aircon service Setapak</button>
-    <button class="service-button">Aircon service Klang</button>
-    <button class="service-button">Aircon service Petaling Jaya</button>
-    <button class="service-button">Aircon service Shah Alam</button>
-    <button class="service-button">Aircon service Bandar Sunway</button>
-    <button class="service-button">Aircon service Bukit Jalil</button>
+    <button class="service-button"><a href="aircon-service-kl.php">Aircon service kl</a></button>
+    <button class="service-button"><a href="aircon-service-selangor.php">Aircon service Selangor</a></button>
+    <button class="service-button"><a href="aircon-service-usj.php">Aircon service USJ</a></button>
+    <button class="service-button"><a href="aircon-service-puchong.php">Aircon service Puchong</a></button>
+    <button class="service-button"><a href="aircon-service-wangsa-maju.php">Aircon service Wangsa Maju</a></button>
+    <button class="service-button"><a href="aircon-service-kepong.php">Aircon service Kepong</a></button>
+    <button class="service-button"><a href="aircon-service-cheras.php">Aircon service Cheras</a></button>
+    <button class="service-button"><a href="aircon-service-sri-hartamas.php">Aircon Service Sri Hartamas</a></button>
+    <button class="service-button"><a href="aircon-service-kampung-baru.php">Aircon service Kampung Baru</a></button>
+    <button class="service-button"><a href="aircon-service-near-jalan-ipoh.php">Aircon service near jalan Ipoh</a></button>
+    <button class="service-button"><a href="aircon-service-titiwangsa.php">Aircon service Titiwangsa</a></button>
+    <button class="service-button"><a href="aircon-service-mont-kiara.php">Aircon service Mont Kiara</a></button>
+    <button class="service-button"><a href="aircon-service-pj.php">Aircon service PJ</a></button>
+    <button class="service-button"><a href="aircon-service-kota.php">Aircon Service Kota</a></button>
+    <button class="service-button"><a href="aircon-service-subang-jaya.php">Aircon Service Subang Jaya</a></button>
+    <button class="service-button"><a href="aircon-service-bangsar.php">Aircon service Bangsar</a></button>
+    <button class="service-button"><a href="aircon-service-ampang.php">Aircon service Ampang</a></button>
+    <button class="service-button"><a href="aircon-service-desa-park-city.php">Aircon service Desa Park City</a></button>
+    <button class="service-button"><a href="aircon-service-chowkit.php">Aircon service Chowkit</a></button>
+    <button class="service-button"><a href="aircon-service-setapak.php">Aircon service Setapak</a></button>
+    <button class="service-button"><a href="aircon-service-klang.php">Aircon service Klang</a></button>
+    <button class="service-button"><a href="aircon-service-petaling-jaya.php">Aircon service Petaling Jaya</a></button>
+    <button class="service-button"><a href="aircon-service-shah-alam.php">Aircon service Shah Alam</a></button>
+    <button class="service-button"><a href="aircon-service-bandar-sunway.php">Aircon service Bandar Sunway</a></button>
+    <button class="service-button"><a href="aircon-service-bukit-jalil.php">Aircon service Bukit Jalil</a></button>
 </div>

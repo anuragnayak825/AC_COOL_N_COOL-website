@@ -163,6 +163,18 @@
         font-size: 26px;
     }
 
+    /* ServicePricing */
+
+    .price-container {
+        padding: 0px 40px;
+    }
+
+    .price-container .pricing-div-container {
+        gap: 30px;
+    }
+
+
+
     /* Service CTA section */
 
     .service-cta {
@@ -174,7 +186,7 @@
     }
 
     .service-cta .service-cta-div .left-side h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .service-cta .service-cta-div .right-side .btn-div {
@@ -246,6 +258,8 @@
 
     .button-container {
         padding: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .service-button {
@@ -415,7 +429,7 @@
     }
 
     #hero-banner {
-        min-height: 1100px;
+        height: 1000px;
     }
 
     .services-below .row {
@@ -456,7 +470,55 @@
         width: 100%;
     }
 
+    /* pricing service */
+    .price-container {
+        padding: 40px;
+    }
+
+    .price-container .pricing-div-container {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+    .Troubleshooting-container p {
+        font-size: 14px;
+        padding: 0px 10px;
+        font-weight: 500;
+    }
+
+    .Basic-cleaning h4 {
+        font-size: 17px;
+        margin-top: 8px;
+        color: var(--primary-color);
+    }
+
+    .Basic-cleaning p {
+        font-size: 14px;
+        padding: 0px 10px;
+        font-weight: 500;
+    }
+
+    .chemical-cleanig h4 {
+        font-size: 17px;
+        margin-top: 8px;
+        color: var(--primary-color);
+    }
+
+    .chemical-cleanig p {
+        font-size: 14px;
+    }
+
+    .chemical-cleanig aside div span {
+        font-size: 14px;
+    }
+
     /* Service Section */
+
+
 
     #service-content-i {
         padding: 20px;
@@ -504,7 +566,7 @@
     }
 
     .service-cta .service-cta-div .left-side h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .service-cta .service-cta-div .right-side {
@@ -646,7 +708,7 @@
 
     .button-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 40px;
     }
 
@@ -777,7 +839,24 @@
         padding: 40px;
     }
 
+    /* Location page  */
+
+    main {
+        padding: 0px 40px;
+    }
+
+    .second-main .service-card-list-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
     /* Footer Section */
+
+
 
 }
 
@@ -876,6 +955,15 @@
     .hero-content-btns a {
         padding: 15px 20px;
         font-size: 16px;
+    }
+
+    .inner-banner-location-page-sec,
+    #inner-banner {
+        height: 200px;
+    }
+
+    .inner-banner-content h1 {
+        font-size: 1.8rem;
     }
 
     .about-upper-box h2 {
@@ -1022,6 +1110,81 @@
         margin-left: 0px;
     }
 
+    /* pricing service */
+    .price-container {
+        padding: 0px 20px;
+    }
+
+    .pricing-card {
+        width: 90%;
+    }
+
+    .price-container .pricing-div-container {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-top: 40px; */
+        row-gap: 40px;
+    }
+
+    .Troubleshooting-container {
+        padding: 10px;
+    }
+
+    .Troubleshooting-container p {
+        font-size: 14px;
+
+        font-weight: 500;
+    }
+
+    .Basic-cleaning aside {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .Basic-cleaning h4 {
+        font-size: 17px;
+        margin-top: 8px;
+        color: var(--primary-color);
+    }
+
+    .Basic-cleaning p {
+        font-size: 14px;
+        padding: 0px 10px;
+        font-weight: 500;
+    }
+
+    .chemical-cleanig aside {
+        width: 100%;
+        height: auto;
+        padding: 8px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .wall-mounted-commer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .chemical-cleanig h4 {
+        font-size: 17px;
+        margin-top: 8px;
+        color: var(--primary-color);
+    }
+
+    .chemical-cleanig p {
+        font-size: 14px;
+    }
+
+    .chemical-cleanig aside div span {
+        font-size: 14px;
+    }
 
     /* Service Section */
 
@@ -1095,7 +1258,7 @@
     }
 
     .service-cta .service-cta-div .left-side h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .service-cta .service-cta-div .right-side {
@@ -1419,6 +1582,21 @@
         font-size: 18px;
     }
 
+    /* location page */
+
+    main {
+        padding: 0px 10px;
+    }
+
+    .second-main .service-card-list-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
 }
 
 @media (max-width: 423px) {
@@ -1512,6 +1690,15 @@
     .hero-content-btns a {
         padding: 15px 20px;
         font-size: 16px;
+    }
+
+    .inner-banner-location-page-sec,
+    #inner-banner {
+        height: 200px;
+    }
+
+    .inner-banner-content h1 {
+        font-size: 1.8rem;
     }
 
     .about-upper-box h2 {
@@ -1670,6 +1857,123 @@
 
     .locations-name a {
         width: 100%;
+    }
+
+    /* pricing service */
+    .price-container {
+        padding: 0px 20px;
+    }
+
+    .pricing-card {
+        width: 80%;
+    }
+
+    .price-container .pricing-div-container {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-top: 40px; */
+        row-gap: 40px;
+    }
+
+    .Troubleshooting-container {
+        padding: 10px;
+    }
+
+    .Troubleshooting-container div h3 {
+        font-size: 17px;
+    }
+
+    .Troubleshooting-container p {
+        font-size: 14px;
+
+        font-weight: 500;
+    }
+
+
+
+    .Basic-cleaning h4 {
+        font-size: 15px;
+        margin-top: 8px;
+        color: var(--primary-color);
+    }
+
+    .Basic-cleaning p {
+        font-size: 14px;
+        padding: 0px 10px;
+        font-weight: 500;
+    }
+
+    .chemical-cleanig ul,
+    .Basic-cleaning ul {
+        font-size: 15px;
+    }
+
+    .chemical-cleanig aside {
+        width: 100%;
+        height: auto;
+        padding: 8px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Basic-cleaning aside {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .Basic-cleaning aside div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .wall-mounted-commer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .chemical-cleanig h2 {
+        font-size: 17px;
+    }
+
+    .chemical-cleanig h3 {
+        font-size: 15px;
+    }
+
+    .chemical-cleanig aside {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .chemical-cleanig aside div {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+
+    }
+
+    .chemical-cleanig h4 {
+        font-size: 17px;
+        margin-top: 8px;
+        color: var(--primary-color);
+    }
+
+    .chemical-cleanig p {
+        font-size: 14px;
+    }
+
+    .chemical-cleanig aside div span {
+        font-size: 14px;
     }
 
     /* Service Section */
@@ -2065,6 +2369,32 @@
     .why-choose-end h1 {
         padding: 10px;
         font-size: 20px;
+    }
+
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* 5 buttons per row */
+        gap: 10px;
+    }
+
+    .service-button {
+        font-size: 16px;
+    }
+
+    /* location page */
+
+    main {
+        padding: 0px 10px;
+    }
+
+    .second-main .service-card-list-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin-bottom: 30px;
     }
 
 

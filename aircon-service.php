@@ -96,12 +96,7 @@
         </div>
     </section>
 
-    <!-- <section id="price" class="price-container">
-
-        <div class="price-btn-coontainer">
-            <button class="btn active" onclick="activateButton(this)">WALL MOUNTED AIRCON</button>
-            <button class="btn" onclick="activateButton(this)">CEILING CASSETTE AND CEILING EXPOSED</button>
-        </div>
+    <section id="price" class="price-container">
 
         <div class="pricing-div-container">
             <div class="wall-mounted-card  pricing-card">
@@ -116,8 +111,8 @@
                         Troubleshoot fee is waived only if the specific Aircon unit checked proceeds with chemical
                         service on the same day.</p>
                 </div>
-                <div class=" Basic-cleaning  ">
-                    <h1>WALL MOUNTED AIRCON</h1>
+                <div class=" Basic-cleaning ">
+
                     <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
                     <h4>GENERAL SERVICE :</h4>
                     <ul>
@@ -165,7 +160,6 @@
                     </p>
                 </div>
                 <div class="chemical-cleanig">
-                    <h1></h1>
                     <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
                     <h2>CHEMICAL SERVICE UP TO 2.5HP</h2>
                     <ul>
@@ -206,11 +200,10 @@
                         </div>
                     </aside>
                     <h3>COMMERCIAL LOT :</h3>
-                    <aside>
-                        <p>
-                            RM 150 each
-                        </p>
-                    </aside>
+
+                    <ul>
+                        <p>RM 150 each</p>
+                    </ul>
                     <h5>Additional Terms & Conditions:</h5>
                     <h6>Troubleshooting & Repair Charges:</h6>
                     <p>RM 75 for each unit</p>
@@ -224,9 +217,131 @@
                     <p>45-day warranty on water leakage</p>
                 </div>
             </div>
+            <div class="wall-mounted-card  pricing-card">
+                <div class="Troubleshooting-container">
+                    <h1>CEILING CASSETTE AND CEILING EXPOSED</h1>
+                    <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
+                    <div>
+                        <h3>Troubleshooting</h3> <span>RM 100/unit</span>
+                    </div>
+                    <h5>Terms and Condition :</h5>
+                    <p>Troubleshooting fee is chargeable whether to proceed or not to proceed with the repair.
+                        Troubleshoot fee is waived only if the specific Aircon unit checked proceeds with chemical
+                        service on the same day.</p>
+                </div>
+                <div class=" Basic-cleaning  ">
+
+                    <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
+                    <h4>GENERAL SERVICE :</h4>
+                    <ul>
+                        <li>To remove and wash filters</li>
+                        <li>To wipe the indoor body</li>
+                        <li>To check the gas</li>
+                        <li>To check the ampere</li>
+                        <li>To check aircon indoor and outdoor unit health</li>
+                    </ul>
+                    <aside>
+                        <div>
+                            <p>1 Unit</p>
+                            <span>RM 100</span>
+                        </div>
+                        <div>
+                            <p>2 Unit</p>
+                            <span>RM 90 each</span>
+                        </div>
+                        <div>
+                            <p>3 Unit +</p>
+                            <span>RM 80 each</span>
+                        </div>
+                    </aside>
+                    <h5>Terms and Condition :</h5>
+                    <p>This service includes only the washing of filters,
+                        wiping of the indoor body, and general checks.
+                    </p>
+                    <p>No coil washing or checking of indoor or outdoor units is included.</p>
+
+                    <h5>Must Read:</h5>
+                    <p>
+                        Not recommended if Aircon has water leaking <br />
+
+                        Not recommended if Airco is not cooling.<br />
+
+                        Service is suggested to be performed every 2-3 months.<br />
+
+                        No warranty coverage for this service.
+                    </p>
+                    <h5>Additional Fees:</h5>
+                    <p>
+                        Please be informed that the troubleshooting fee of RM 100 for Ceiling cassette and ceiling
+                        Exposed unit applies.
+                    </p>
+                    <p>
+                        If any units require repairs or parts replacement, additional costs will apply.
+                    </p>
+                </div>
+                <div class="chemical-cleanig">
+                    <img src="<?= SITE_PATH; ?>assets/images/serv-1.jpg" alt="">
+                    <h2>CHEMICAL SERVICE UP TO 2.5HP</h2>
+                    <ul>
+                        <li>To remove filters and wash.</li>
+                        <li>To use chemical and water to wash of Indoor cooling coil</li>
+                        <li>To flush the drain pipe</li>
+                        <li>To wash and clean the drain pan of Indoor unit</li>
+                        <li>To fix water leaking (if any)</li>
+                        <li>To use chemical and water to wash the outdoor condenser, fan blade and body</li>
+                        <li>To check ampere.</li>
+                        <li>To check gas pressure.</li>
+                        <li>To check gas pressure.</li>
+                    </ul>
+
+                    <h3>Free Gas Top-Up:</h3>
+                    <p>Gas top-up exceeding 20 psi will be additional charges.</p>
+                    <h3>RESIDENTIAL LOT :</h3>
+                    <aside>
+                        <div>
+                            <p>1 Unit: </p>
+                            <span>RM 300</span>
+                        </div>
+                        <div>
+                            <p>2 Unit: </p>
+                            <span>RM 280 each</span>
+                        </div>
+                        <div>
+                            <p>3 Unit: </p>
+                            <span>RM 260 each</span>
+                        </div>
+                    </aside>
+                    <h3>COMMERCIAL LOT :</h3>
+                    <aside>
+                        <div>
+                            <p>1 Unit: </p>
+                            <span>RM 380</span>
+                        </div>
+                        <div>
+                            <p>2 Unit: </p>
+                            <span>RM 360 each</span>
+                        </div>
+                        <div>
+                            <p>3 Unit: </p>
+                            <span>RM 350 each</span>
+                        </div>
+                    </aside>
+                    <h5>Additional Terms & Conditions:</h5>
+                    <h6>Troubleshooting & Repair Charges:</h6>
+                    <p>RM 100 for each unit</p>
+                    <p>Troubleshooting and repair charges apply if a unit is diagnosed with the need for repairs or
+                        parts replacements, and the chemical service cannot be completed the same day.</p>
+                    <h5>
+                        Quotation:
+                    </h5>
+                    <p> A quotation will be provided if any unit cannot be fixed on the spot.</p>
+                    <h5>Water Leakage Warranty:</h5>
+                    <p>45-day warranty on water leakage</p>
+                </div>
+            </div>
         </div>
 
-    </section> -->
+    </section>
 
     <section class="service-cta">
         <div class="service-cta-div">
@@ -236,9 +351,10 @@
             </div>
             <div class="right-side">
                 <div class="btn-div">
-                    <button>Request a free estimate <i class="fa fa-arrow-right-long"></i></button>
-                    <button><i class="fa fa-phone"></i></button>
-                    <button><i class="fab fa-whatsapp"></i></button>
+                    <button onclick="window.location.href='tel:+60163824522'">Request a free estimate <i
+                            class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href='tel:+60163824522'"><i class="fa fa-phone"></i></button>
+                    <button onclick="window.location.href='https://wa.me/60163824522'"><i class="fab fa-whatsapp"></i></button>
                 </div>
                 <p>Leave an application on our website now to schedule a cleaning appointment that works for you!</p>
             </div>

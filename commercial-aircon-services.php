@@ -35,9 +35,10 @@
                         Air Conditioner Service Cost in KL for more than 20 years! Book Now!
                     </p>
 
+
                     <div class="res-btn-sec">
-                        <button>Call : +60 16-382 4522</button>
-                        <button>Whatsapp US</button>
+                        <button onclick="window.location.href='tel:+60163824522'">Call : +60 16-382 4522</button>
+                        <button onclick="window.location.href='https://wa.me/60163824522'">Whatsapp US</button>
                     </div>
                 </div>
 
@@ -110,7 +111,7 @@
                 The commitment to quality and customer satisfaction has made the company a reliable partner to
                 businesses seeking commercial air conditioning solutions.
             </p>
-            <button>Talk To Expert</button>
+            <button onclick="window.location.href ='tel:+60163824522'">Talk To Expert</button>
         </div>
 
 
@@ -158,7 +159,7 @@
                         cooling efficiency and energy savings. Our team ensures that the installation is smooth, quick,
                         and compliant with all industry standards.
                     </p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href = 'tel:+60163824522'">Learn More <i class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
             <div class="right-side-card">
@@ -172,7 +173,7 @@
                         refrigerant levels, inspecting cooling coils, and solving all the potential issues before they
                         actually interfere with business operations. Maintaining equipment not only increases efficiency
                         but also prolongs their life.</p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href = 'tel:+60163824522'">Learn More <i class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
             <div class="right-side-card">
@@ -186,7 +187,7 @@
                         minor or major, thereby minimizing downtime and ensuring your business remains comfortable for
                         employees and customers alike.
                     </p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href = 'tel:+60163824522'">Learn More <i class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
             <div class="right-side-card">
@@ -200,7 +201,7 @@
                         will always be there to recommend the best options, whether you need a partial upgrade or a full
                         replacement.
                     </p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href = 'tel:+60163824522'">Learn More <i class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
             <div class="right-side-card">
@@ -213,7 +214,7 @@
                         large offices to cooling solutions for specialized environments like server rooms, our team
                         provides customized air conditioning designs and installations that fit your specific needs.
                     </p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href = 'tel:+60163824522'">Learn More <i class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
         </div>
@@ -291,7 +292,7 @@
             <div class="imges-div">
                 <img src="<?= SITE_PATH; ?>assets/images/gal5.webp" alt="Woman portrait" class="gallery-img">
                 <img src="<?= SITE_PATH; ?>assets/images/gal6.webp" alt="Man portrait" class="gallery-img">
-                <img src="<?= SITE_PATH; ?>assets/images/gal2.webp" alt="Beach sunset" class="gallery-img">
+                <!-- <img src="<?= SITE_PATH; ?>assets/images/gal2.webp" alt="Beach sunset" class="gallery-img"> -->
             </div>
         </div>
     </section>
@@ -320,6 +321,37 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+        const buttons = document.querySelectorAll('.service-cta .btn-div button');
+
+        buttons.forEach((btn, i) => {
+
+            if (i === 0) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522";
+                });
+            }
+            if (i === 1) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522";
+                });
+            }
+            if (i === 2) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "https://wa.me/60163824522";
+                });
+            }
+        });
+    </script>
+    <script>
+        const buttons = document.querySelectorAll('.right-side .right-side-card button');
+
+        buttons.forEach((btn, i) => {
+            btn.addEventListener('click', () => {
+                window.location.href = "tel:+60163824522";
+            });
+        });
+    </script>
 
 </body>
 

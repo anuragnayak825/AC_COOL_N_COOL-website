@@ -266,7 +266,7 @@
 
     <!-- ========================================== -->
 
-    
+
     <!-- ==============Footer=========== -->
     <?php include 'includes/footer.php'; ?>
 
@@ -277,7 +277,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+        const buttons = document.querySelectorAll('.service-cta .btn-div button');
 
+        buttons.forEach((btn, i) => {
+
+            if (i === 0) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522";
+                });
+            }
+            if (i === 1) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522";
+                });
+            }
+            if (i === 2) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "https://wa.me/60163824522";
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@
     <?php include 'includes/common-header.php'; ?>
 </head>
 
-<body >
+<body>
 
     <!-- ==============header=========== -->
     <?php include 'includes/header.php'; ?>
@@ -37,7 +37,7 @@
                     </ul>
                     <div class="hero-content-btns">
                         <a href="#services">Explore Our Services</a>
-                        <a href="#services">Connect with us!</a>
+                        <a href="contact-us.php">Connect with us!</a>
                     </div>
                 </div>
 
@@ -121,7 +121,7 @@
                                     <li>Quality Air Conditioning Solutions</li>
                                 </ul>
                                 <div class="about-lower-btn">
-                                    <a href="#"> More About us</a>
+                                    <a href="about-us.php"> More About us</a>
                                 </div>
                             </div>
                         </div>
@@ -135,8 +135,8 @@
 
     <section id="services">
         <?php /* <div class="ac-element">
-       <img src="<?= SITE_PATH; ?>assets/images/ac.png" alt="">
-   </div> */ ?>
+  <img src="<?= SITE_PATH; ?>assets/images/ac.png" alt="">
+</div> */ ?>
         <div class="section-upper">
             <div class="container">
                 <div class="row">
@@ -173,7 +173,7 @@
                             <div class="service-card-content">
                                 <p>Expert installation of all types of air conditioning systems. We ensure optimal
                                     performance and energy efficiency.</p>
-                                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="aircon-service.php"><i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                             <div class="service-card-content">
                                 <p>Expert installation of all types of air conditioning systems. We ensure optimal
                                     performance and energy efficiency.</p>
-                                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="aircon-repair.php"><i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                             <div class="service-card-content">
                                 <p>Expert installation of all types of air conditioning systems. We ensure optimal
                                     performance and energy efficiency.</p>
-                                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="aircon-maintenance.php"><i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -247,7 +247,7 @@
                             </ul>
                             <div class="why-choose-btn">
                                 <a href="#">Learn More About Us</a>
-                                <a href="#">Contact Us Today</a>
+                                <a href="tel:+60163824522">Contact Us Today</a>
                             </div>
                         </div>
                     </div>
@@ -692,7 +692,7 @@
         });
     </script>
 
-    
+
 
 </body>
 

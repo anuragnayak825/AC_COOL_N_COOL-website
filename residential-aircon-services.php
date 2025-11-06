@@ -34,8 +34,8 @@
                     </p>
 
                     <div class="res-btn-sec">
-                        <button>Call : +60 16-382 4522</button>
-                        <button>Whatsapp US</button>
+                        <button onclick="window.location.href='tel:+60163824522'">Call : +60 16-382 4522</button>
+                        <button onclick="window.location.href='https://wa.me/60163824522'">Whatsapp US</button>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@
                 The commitment to quality and customer satisfaction has made the company a reliable partner to
                 businesses seeking residential air conditioning solutions.
             </p>
-            <button>Talk To Expert</button>
+            <button onclick="window.location.href ='tel:+60163824522'">Talk To Expert</button>
         </div>
 
 
@@ -164,7 +164,8 @@
                     <p>Our team of professionals makes the installation process smooth and painless, while choosing the
                         appropriate air conditioning unit for your house size and cooling requirements. We ensure
                         accurate installation to achieve the highest level of energy efficiency and comfort</p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href='aircon-installation.php'">Learn More <i
+                            class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
             <div class="right-side-card">
@@ -176,7 +177,8 @@
                     <p>Proper maintenance ensures that your air conditioner works smoothly and prolongs its life cycle.
                         Ouraircon maintenance services include filter cleaning, checking refrigerant levels, and proper
                         functioning of all components.</p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href='aircon-maintenance.php'">Learn More <i
+                            class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
             <div class="right-side-card">
@@ -188,7 +190,8 @@
                     <p>If your air conditioner is not working properly, our professionals can easily find the problem
                         and have it corrected. Fast and reliable repair for every type of air conditioning equipment.
                     </p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href='aircon-repair.php'">Learn More <i
+                            class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
             <div class="right-side-card">
@@ -200,7 +203,8 @@
                     <p>Comprehensive servicing to address any performance issues and get your air conditioner working in
                         the best possible conditions again. That is why we provide a thorough check up and employ a
                         system-level replacement of worn-out parts and improvement of efficiency.</p>
-                    <button>Learn More <i class="fa fa-arrow-right-long"></i></button>
+                    <button onclick="window.location.href='aircon-service.php'">Learn More <i
+                            class="fa fa-arrow-right-long"></i></button>
                 </div>
             </div>
         </div>
@@ -274,7 +278,7 @@
             <div class="imges-div">
                 <img src="<?= SITE_PATH; ?>assets/images/gal4.webp" alt="City architecture" class="gallery-img">
                 <img src="<?= SITE_PATH; ?>assets/images/gal7.webp" alt="Abstract art" class="gallery-img">
-                <img src="<?= SITE_PATH; ?>assets/images/gal12.webp" alt="Colorful background" class="gallery-img">
+                <!-- <img src="<?= SITE_PATH; ?>assets/images/gal12.webp" alt="Colorful background" class="gallery-img"> -->
             </div>
         </div>
     </section>
@@ -373,6 +377,29 @@
 
         });
     </script>
+    <script>
+        const buttons = document.querySelectorAll('.service-cta .btn-div button');
+
+        buttons.forEach((btn, i) => {
+
+            if (i === 0) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522";
+                });
+            }
+            if (i === 1) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522";
+                });
+            }
+            if (i === 2) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "https://wa.me/60163824522";
+                });
+            }
+        });
+    </script>
+
 
 </body>
 

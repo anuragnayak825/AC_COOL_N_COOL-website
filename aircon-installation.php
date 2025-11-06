@@ -564,6 +564,28 @@
             observer.observe(el);
         });
     </script>
+       <script>
+        const buttons = document.querySelectorAll('.service-cta .btn-div button');
+
+        buttons.forEach((btn, i) => {
+
+            if (i === 0) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522"; 
+                });
+            }
+            if (i === 1) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "tel:+60163824522"; 
+                });
+            }
+            if (i === 2) {
+                btn.addEventListener('click', () => {
+                    window.location.href = "https://wa.me/60163824522";
+                });
+            }
+        });
+    </script>
 
 
 </body>

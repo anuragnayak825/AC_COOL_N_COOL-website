@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="locations-box right-locations-box">
-                            <a href="">Connect With Us Now!</a>
+                            <a href="contact-us.php">Connect With Us Now!</a>
                         </div>
                     </div>
                 </div>
